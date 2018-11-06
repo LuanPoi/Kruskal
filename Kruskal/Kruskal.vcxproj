@@ -144,11 +144,13 @@
   <ItemGroup>
     <ClInclude Include="Aresta.h" />
     <ClInclude Include="Arvore.h" />
+    <ClInclude Include="Kruskal.h" />
     <ClInclude Include="Vertice.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Aresta.cpp" />
     <ClCompile Include="Arvore.cpp" />
+    <ClCompile Include="Kruskal.cpp" />
     <ClCompile Include="Vertice.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

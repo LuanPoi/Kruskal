@@ -10,13 +10,16 @@ class Arvore
 private:
 	vector <Vertice*> vertices;
 	vector <Aresta*> arestas;
+	Arvore();
 
 public:
-	Arvore();
+	Arvore(string verticeNome);
 	~Arvore();
-	vector<Vertice*> pegaVertices();
+	vector<Vertice*> &pegaVertices();
 	bool colocaVertices(vector<Vertice*> vertices);
-	vector<Aresta*> pegaArestas();
+	bool adicionaVertices(vector<Vertice*> vertices);
+	vector<Aresta*> &pegaArestas();
+	bool adicionaArestas(vector<Aresta*> arestas);
 	bool colocaArestas(vector<Aresta*> arestas);
 };
 

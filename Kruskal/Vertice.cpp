@@ -1,12 +1,12 @@
 #include "Vertice.h"
-
+#include <string>
 using namespace std;
 
 Vertice::Vertice()
 {
 }
 
-Vertice::Vertice(char nome)
+Vertice::Vertice(string nome)
 {
 	this->nome = nome;
 }
@@ -17,12 +17,12 @@ Vertice::~Vertice()
 
 }
 
-char Vertice::pegaNome()
+string Vertice::pegaNome()
 {
 	return nome;
 }
 
-void Vertice::colocaNome(char nome)
+void Vertice::colocaNome(string nome)
 {
 	this->nome = nome;
 }

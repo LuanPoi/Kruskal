@@ -5,13 +5,13 @@ using namespace std;
 class Vertice
 {
 private:
-	char nome;
+	string nome;
 
 public:
 	Vertice();
-	Vertice(char nome);
+	Vertice(string nome);
 	~Vertice();
-	char pegaNome();
-	void colocaNome(char nome);
+	string pegaNome();
+	void colocaNome(string nome);
 };
 
