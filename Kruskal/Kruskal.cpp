@@ -50,8 +50,9 @@ bool Kruskal::criaArvore(string verticeNome)
 
 Aresta& Kruskal::criaAresta(string de, string para, float peso = 1)
 {
-	Vertice* de
-	for (auto it = floresta.begin(); it < floresta.end(); ++it) {
-		it;
+	for (auto arvore:floresta) {
+		for (auto vertice : arvore->pegaVertices()) {
+			vertice->pegaNome();
+		}
 	}
 }

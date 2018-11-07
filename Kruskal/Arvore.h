@@ -15,10 +15,10 @@ private:
 public:
 	Arvore(string verticeNome);
 	~Arvore();
-	vector<Vertice*> &pegaVertices();
+	vector<Vertice*> pegaVertices();
 	bool colocaVertices(vector<Vertice*> vertices);
 	bool adicionaVertices(vector<Vertice*> vertices);
-	vector<Aresta*> &pegaArestas();
+	vector<Aresta*> pegaArestas();
 	bool adicionaArestas(vector<Aresta*> arestas);
 	bool colocaArestas(vector<Aresta*> arestas);
 };

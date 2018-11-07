@@ -17,7 +17,7 @@ Arvore::~Arvore()
 {
 }
 
-vector<Vertice*> &Arvore::pegaVertices()
+vector<Vertice*> Arvore::pegaVertices()
 {
 	return vertices;
 }
@@ -37,7 +37,7 @@ bool Arvore::adicionaVertices(vector<Vertice*> vertices)
 	return true;
 }
 
-vector<Aresta*> &Arvore::pegaArestas()
+vector<Aresta*> Arvore::pegaArestas()
 {
 	return arestas;
 }
