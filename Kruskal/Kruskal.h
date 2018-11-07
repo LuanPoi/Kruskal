@@ -26,10 +26,9 @@ public:
 	//bool criaFloresta();
 	bool criaArvore(string verticeNome);
 	Aresta& criaAresta(string de, string para, float peso = 1);
-	bool removeArvore(Arvore arvore);
-	bool removeAresta(Aresta aresta);
+	bool removeArvore(Arvore* arvore);
+	bool removeAresta(Aresta* aresta);
 	Aresta* retornaMenorAresta();
-	Arvore* retornaArvores();
 	void mostrarResultado();
 
 };
