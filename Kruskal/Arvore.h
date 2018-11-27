@@ -8,18 +8,17 @@ using namespace std;
 class Arvore
 {
 private:
-	vector <Vertice*> vertices;
-	vector <Aresta*> arestas;
+	
 	Arvore();
 
 public:
-	Arvore(string verticeNome);
+	vector <Vertice*> vertices;
+	vector <Aresta*> arestas;
+	Arvore(Vertice* vertice);
 	~Arvore();
 	vector<Vertice*> pegaVertices();
-	bool colocaVertices(vector<Vertice*> vertices);
-	bool adicionaVertices(vector<Vertice*> vertices);
+	void adicionaVertices(vector<Vertice*> vertices);
 	vector<Aresta*> pegaArestas();
-	bool adicionaArestas(vector<Aresta*> arestas);
-	bool colocaArestas(vector<Aresta*> arestas);
+	void adicionaArestas(vector<Aresta*> arestas);
 };
 

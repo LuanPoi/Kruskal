@@ -1,13 +1,15 @@
 #pragma once
+#include <iostream>
 
 using namespace std;
 
 class Vertice
 {
 private:
-	string nome;
+	
 
 public:
+	string nome;
 	Vertice();
 	Vertice(string nome);
 	~Vertice();

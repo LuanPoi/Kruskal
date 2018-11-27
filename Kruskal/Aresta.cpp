@@ -6,8 +6,7 @@ Aresta::Aresta()
 {
 }
 
-
-Aresta::Aresta(Vertice * de, Vertice * para, float peso=1)
+Aresta::Aresta(Vertice * de, Vertice * para, float peso)
 {
 	this->de = de;
 	this->para = para;
@@ -18,7 +17,7 @@ Aresta::~Aresta()
 {
 }
 
-Vertice & Aresta::pegaDe()
+Vertice &Aresta::pegaDe()
 {
 	return *de;
 }
@@ -28,7 +27,7 @@ void Aresta::colocaDe(Vertice * de)
 	this->de = de;
 }
 
-Vertice & Aresta::pegaPara()
+Vertice &Aresta::pegaPara()
 {
 	return *para;
 }

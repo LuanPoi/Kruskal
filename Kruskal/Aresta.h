@@ -6,12 +6,13 @@ using namespace std;
 class Aresta
 {
 private:
-	Vertice *de;
-	Vertice *para;
-	float peso;
+	
 	Aresta();
 
 public:
+	Vertice *de;
+	Vertice *para;
+	float peso;
 	Aresta(Vertice *de, Vertice *para, float peso=1);
 	~Aresta();
 	Vertice &pegaDe();

@@ -11,7 +11,6 @@ Vertice::Vertice(string nome)
 	this->nome = nome;
 }
 
-
 Vertice::~Vertice()
 {
 

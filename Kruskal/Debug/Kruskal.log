@@ -1,0 +1,6 @@
+﻿  Kruskal.cpp
+  main.cpp
+  Gerando Código...
+c:\users\andromeda\documents\github\kruskal\kruskal\kruskal.cpp(53): warning C4715: 'Kruskal::criaAresta': nem todos os caminhos de controle retornam um valor
+c:\users\andromeda\documents\github\kruskal\kruskal\kruskal.cpp(45): warning C4172: retornando o endereço da variável local ou temporário
+  Kruskal.vcxproj -> C:\Users\Andromeda\Documents\GitHub\Kruskal\Debug\Kruskal.exe
